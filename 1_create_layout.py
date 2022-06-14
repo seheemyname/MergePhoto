@@ -1,7 +1,5 @@
-from importlib.resources import path
+
 from tkinter import *
-from turtle import right
-from typing import List
 import tkinter.ttk as ttk
 
 root =Tk()
