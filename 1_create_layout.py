@@ -1,4 +1,7 @@
+from importlib.resources import path
 from tkinter import *
+from turtle import right
+from typing import List
 import tkinter.ttk as ttk
 
 root =Tk()
@@ -82,6 +85,10 @@ btn_close = Button(frame_run, padx=5, pady=5, text="닫기", width=12, command=r
 btn_close.pack(side="right", padx=5, pady=5)
 btn_start = Button(frame_run, padx=5, pady=5, text="시작", width=12)
 btn_start.pack(side="right", padx=5, pady=5)
+
+#옵션 프레임
+frame_option = LabelFrame(root, text="옵션")
+frame_option.pack()
 
 
 root.resizable(False, False)
